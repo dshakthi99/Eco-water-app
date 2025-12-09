@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="skinGradient6" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5C99E;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#D4A574;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <circle cx="100" cy="100" r="100" fill="#f0f0f0"/>
+  <circle cx="100" cy="70" r="35" fill="url(#skinGradient6)"/>
+  <path d="M 65 70 Q 65 35 100 35 Q 135 35 135 70" fill="#2C2C2C"/>
+  <circle cx="92" cy="63" r="4" fill="#1a1a1a"/>
+  <circle cx="108" cy="63" r="4" fill="#1a1a1a"/>
+  <circle cx="93" cy="62" r="1.5" fill="white"/>
+  <circle cx="109" cy="62" r="1.5" fill="white"/>
+  <path d="M 100 70 L 100 80" stroke="#999" stroke-width="2" fill="none"/>
+  <path d="M 92 87 Q 100 94 108 87" stroke="#1a1a1a" stroke-width="2" fill="none"/>
+  <ellipse cx="100" cy="130" rx="30" ry="35" fill="#00a86b"/>
+</svg>

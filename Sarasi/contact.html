@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - BlueWave Eco Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">BlueWave Solutions</div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+            <button class="mobile-menu-toggle">☰</button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Get in Touch</h1>
+            <p>Have questions? Ready to start your water purification journey? We'd love to hear from you.</p>
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Contact Information -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Contact Information</h2>
+                    <p>Reach out to us through any of these channels</p>
+                </div>
+                
+                <div class="grid grid-3">
+                    <div class="card" style="text-align: center;">
+                        <div class="card-icon">📧</div>
+                        <h3>Email Us</h3>
+                        <p>Have a question? Send us an email and we'll respond within 24 hours.</p>
+                        <p><strong>info@bluewave.com</strong></p>
+                        <p><strong>support@bluewave.com</strong></p>
+                    </div>
+                    
+                    <div class="card" style="text-align: center;">
+                        <div class="card-icon">📞</div>
+                        <h3>Call Us</h3>
+                        <p>Speak directly with our team during business hours.</p>
+                        <p><strong>+1 (555) 123-4567</strong></p>
+                        <p><strong>Mon-Fri: 9AM-6PM EST</strong></p>
+                    </div>
+                    
+                    <div class="card" style="text-align: center;">
+                        <div class="card-icon">🌍</div>
+                        <h3>Visit Us</h3>
+                        <p>Come see our operations center.</p>
+                        <p><strong>123 Green Street</strong></p>
+                        <p><strong>Eco City, EC 12345</strong></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Form Section -->
+        <section class="section" style="background-color: var(--light-blue);">
+            <div class="container">
+                <div class="grid grid-2">
+                    <!-- Form -->
+                    <div>
+                        <h2 style="margin-bottom: 2rem;">Send us a Message</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name *</label>
+                                <input 
+                                    type="text" 
+                                    id="name" 
+                                    name="name" 
+                                    required
+                                    placeholder="John Doe"
+                                    minlength="2"
+                                    maxlength="100"
+                                >
+                                <div class="error-message"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="email">Email Address *</label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email" 
+                                    required
+                                    placeholder="john@example.com"
+                                >
+                                <div class="error-message"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="phone">Phone Number *</label>
+                                <input 
+                                    type="tel" 
+                                    id="phone" 
+                                    name="phone" 
+                                    required
+                                    placeholder="+1 (555) 123-4567"
+                                    minlength="10"
+                                    data-validate="phone"
+                                >
+                                <div class="error-message"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select a subject...</option>
+                                    <option value="product-inquiry">Product Inquiry</option>
+                                    <option value="partnership">Partnership Opportunity</option>
+                                    <option value="support">Technical Support</option>
+                                    <option value="complaint">Complaint/Feedback</option>
+                                    <option value="investment">Investment Interest</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <div class="error-message"></div>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea 
+                                    id="message" 
+                                    name="message" 
+                                    required
+                                    placeholder="Tell us more about your inquiry..."
+                                    minlength="10"
+                                    maxlength="1000"
+                                ></textarea>
+                                <div class="error-message"></div>
+                            </div>
+
+                            <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+                        </form>
+                    </div>
+
+                    <!-- Map Placeholder & Additional Info -->
+                    <div>
+                        <div style="height: 400px; background: linear-gradient(135deg, #0066cc 0%, #00a86b 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; color: white; margin-bottom: 2rem; font-size: 3rem;">
+                            📍
+                        </div>
+                        
+                        <div class="card">
+                            <h3>Office Hours</h3>
+                            <p><strong>Monday - Friday:</strong> 9:00 AM - 6:00 PM EST</p>
+                            <p><strong>Saturday:</strong> 10:00 AM - 2:00 PM EST</p>
+                            <p><strong>Sunday:</strong> Closed</p>
+                            <p style="margin-top: 1.5rem; color: var(--accent-green);">
+                                <strong>24/7 Emergency Support:</strong> Available for critical issues
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Social Links Section -->
+        <section class="section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Follow Our Journey</h2>
+                    <p>Stay updated with our latest projects and news</p>
+                </div>
+                
+                <div style="display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+                    <a href="#" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: var(--light-blue); border-radius: 8px; text-decoration: none; color: var(--primary-blue); font-weight: 600; transition: var(--transition);" onmouseover="this.style.backgroundColor='#e8f5e8'; this.style.color='var(--accent-green)'" onmouseout="this.style.backgroundColor='var(--light-blue)'; this.style.color='var(--primary-blue)'">
+                        <span style="font-size: 1.5rem;">f</span> Follow on Facebook
+                    </a>
+                    <a href="#" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: var(--light-blue); border-radius: 8px; text-decoration: none; color: var(--primary-blue); font-weight: 600; transition: var(--transition);" onmouseover="this.style.backgroundColor='#e8f5e8'; this.style.color='var(--accent-green)'" onmouseout="this.style.backgroundColor='var(--light-blue)'; this.style.color='var(--primary-blue)'">
+                        <span style="font-size: 1.5rem;">𝕏</span> Follow on Twitter
+                    </a>
+                    <a href="#" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: var(--light-blue); border-radius: 8px; text-decoration: none; color: var(--primary-blue); font-weight: 600; transition: var(--transition);" onmouseover="this.style.backgroundColor='#e8f5e8'; this.style.color='var(--accent-green)'" onmouseout="this.style.backgroundColor='var(--light-blue)'; this.style.color='var(--primary-blue)'">
+                        <span style="font-size: 1.5rem;">in</span> Follow on LinkedIn
+                    </a>
+                    <a href="#" style="display: inline-flex; align-items: center; gap: 0.5rem; padding: 1rem 2rem; background: var(--light-blue); border-radius: 8px; text-decoration: none; color: var(--primary-blue); font-weight: 600; transition: var(--transition);" onmouseover="this.style.backgroundColor='#e8f5e8'; this.style.color='var(--accent-green)'" onmouseout="this.style.backgroundColor='var(--light-blue)'; this.style.color='var(--primary-blue)'">
+                        <span style="font-size: 1.5rem;">📷</span> Follow on Instagram
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section" style="background-color: var(--light-green);">
+            <div class="container">
+                <div class="section-title">
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+                
+                <div class="grid grid-2">
+                    <div class="card">
+                        <h4>How long does installation take?</h4>
+                        <p>Installation time varies by system type. Home systems take 1-2 hours, commercial systems 1-2 days, and industrial systems 1-2 weeks. Our team will provide exact timelines during consultation.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h4>What is the warranty period?</h4>
+                        <p>All systems come with comprehensive warranties: 2 years for residential units, 5 years for commercial, and 10 years for industrial systems. Extended warranties are available.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h4>Do you offer maintenance services?</h4>
+                        <p>Yes! We offer comprehensive maintenance packages including filter replacements, system checks, and 24/7 emergency support for all customers. Details available upon purchase.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h4>Are your systems environmentally friendly?</h4>
+                        <p>Absolutely. All our systems use renewable energy, biodegradable materials, and minimize water waste. We're carbon-neutral and committed to sustainability at every stage.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h4>Can you customize systems for specific needs?</h4>
+                        <p>Yes! We understand every water source is unique. Our engineers will analyze your water quality and customize the filtration process to address your specific contaminants.</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h4>How can I track my system performance?</h4>
+                        <p>Our commercial and industrial systems include smart monitoring. Track water quality, filter status, and performance in real-time through our mobile app or web dashboard.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="section" style="background: linear-gradient(135deg, #0066cc 0%, #00a86b 100%); color: white; text-align: center;">
+            <div class="container">
+                <h2 style="color: white;">Ready to Transform Your Water?</h2>
+                <p style="color: rgba(255, 255, 255, 0.9); font-size: 1.1rem; margin-bottom: 2rem;">Whether you have questions or are ready to implement a solution, we're here to help.</p>
+                <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                    <a href="#contactForm" class="btn btn-secondary">Fill Out Form Above</a>
+                    <a href="tel:+1-555-123-4567" class="btn btn-outline" style="color: white; border-color: white;">Call Us Now</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-grid">
+                <div class="footer-section">
+                    <h4>BlueWave Solutions</h4>
+                    <p>Pioneering sustainable water purification technology for a cleaner, greener planet.</p>
+                    <div class="social-links">
+                        <a href="#" title="Facebook">f</a>
+                        <a href="#" title="Twitter">𝕏</a>
+                        <a href="#" title="LinkedIn">in</a>
+                        <a href="#" title="Instagram">📷</a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="projects.html">Projects</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Products</h4>
+                    <ul>
+                        <li><a href="products.html">Water Purification Systems</a></li>
+                        <li><a href="products.html">Commercial Solutions</a></li>
+                        <li><a href="products.html">Residential Units</a></li>
+                        <li><a href="products.html">Industrial Systems</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <ul>
+                        <li>📧 info@bluewave.com</li>
+                        <li>📞 +1 (555) 123-4567</li>
+                        <li>🌍 123 Green Street, Eco City</li>
+                        <li>⏰ Mon-Fri 9AM-6PM EST</li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 BlueWave Eco Solutions. All rights reserved. | <a href="#" style="color: var(--accent-green);">Privacy Policy</a> | <a href="#" style="color: var(--accent-green);">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/form-validation.js"></script>
+</body>
+</html>

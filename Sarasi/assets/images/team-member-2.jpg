@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <defs>
+    <linearGradient id="skinGradient2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#E8C5A0;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C9A481;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <circle cx="100" cy="100" r="100" fill="#e8f5e8"/>
+  
+  <!-- Head -->
+  <circle cx="100" cy="70" r="35" fill="url(#skinGradient2)"/>
+  
+  <!-- Hair -->
+  <path d="M 65 70 Q 65 35 100 35 Q 135 35 135 70" fill="#2C2C2C"/>
+  
+  <!-- Eyes -->
+  <circle cx="88" cy="65" r="4" fill="#1a1a1a"/>
+  <circle cx="112" cy="65" r="4" fill="#1a1a1a"/>
+  <circle cx="89" cy="64" r="1.5" fill="white"/>
+  <circle cx="113" cy="64" r="1.5" fill="white"/>
+  
+  <!-- Nose -->
+  <path d="M 100 68 L 100 80" stroke="#C9A481" stroke-width="2" fill="none"/>
+  
+  <!-- Smile -->
+  <path d="M 88 86 Q 100 94 112 86" stroke="#1a1a1a" stroke-width="2" fill="none"/>
+  
+  <!-- Body -->
+  <ellipse cx="100" cy="130" rx="30" ry="35" fill="#00a86b"/>
+  
+  <!-- Shirt detail -->
+  <circle cx="100" cy="115" r="4" fill="#0066cc" opacity="0.6"/>
+</svg>
